@@ -35,7 +35,7 @@ export const siteConfig = {
   ogImage: `${env.NEXT_PUBLIC_APP_URL}/images/hero.jpg`,
   links: {
     twitter: `${env.NEXT_PUBLIC_TWITTER}`,
-    github: 'https://github.com/bitfreee/movie-web-kickstart',
+    github: 'https://github.com/gauravyad12/Darkworld/',
     githubAccount: '',
   },
   socialLinks: [
@@ -72,7 +72,7 @@ export const siteConfig = {
     { title: 'Legal Notices', href: '/' },
     { title: 'Cookie Preferences', href: '/' },
     { title: 'Corporate Information', href: '/' },
-    { title: 'Contact Us', href: '/' },
+    { title: 'Contact Us', href: 'https://gauravkumaryadav.great-site.net/' },
   ],
   mainNav: [
     {
