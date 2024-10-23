@@ -103,6 +103,15 @@ export default function RootLayout({
           <Analytics />
           <SpeedInsights />
           {/* </TrpcProvider> */}
+          <ins className="adsbygoogle"
+               style={{ display: 'block' }}
+               data-ad-format="fluid"
+               data-ad-layout-key="-ef+6l-2u-b0+uf"
+               data-ad-client="ca-pub-4556677206249977"
+               data-ad-slot="5670289418"></ins>
+          <Script>
+            {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+          </Script>
           {env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && (
             <>
               <Script
