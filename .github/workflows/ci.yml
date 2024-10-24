@@ -12,11 +12,10 @@ on:
 
 # fake env variables to bypass env check
 env: 
-  NEXT_PUBLIC_APP_URL: "https://fake.com"
-  NEXT_PUBLIC_TMDB_TOKEN: "fake-token"
-  NEXT_PUBLIC_SITE_NAME: "fake-name"
-  NEXT_PUBLIC_IMAGE_DOMAIN: "fake-domain"
-
+  NEXT_PUBLIC_APP_URL: "https://duskyworld.vercel.app/"
+  NEXT_PUBLIC_TMDB_TOKEN: "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyZjBhNTM0NTFlNTEwYTcyMjk4NTdjODYwODcxN2VmYyIsIm5iZiI6MTcyOTY4MzU3Mi45ODY5NDcsInN1YiI6IjY2Yzk2ZmExOGNkMTMxMjI1YTJkNDYxNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Pv75-aIEXVNSU4k52-9JtyqsxJoFAdR4z4Omb-aPuPM"
+  NEXT_PUBLIC_SITE_NAME: "Duskyworld"
+  NEXT_PUBLIC_IMAGE_DOMAIN: "https://duskyworld.vercel.app/"
 jobs:
   build:
     runs-on: ubuntu-latest
