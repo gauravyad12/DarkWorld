@@ -78,14 +78,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <meta name="google-adsense-account" content="ca-pub-4556677206249977" />
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4556677206249977"
-          crossOrigin="anonymous"
-        />
-      </head>
       <body
         className={cn(
           'overlflow-y-auto min-h-screen overflow-x-hidden bg-background font-sans antialiased',
@@ -103,15 +95,6 @@ export default function RootLayout({
           <Analytics />
           <SpeedInsights />
           {/* </TrpcProvider> */}
-          <ins className="adsbygoogle"
-               style={{ display: 'block' }}
-               data-ad-format="fluid"
-               data-ad-layout-key="-ef+6l-2u-b0+uf"
-               data-ad-client="ca-pub-4556677206249977"
-               data-ad-slot="5670289418"></ins>
-          <Script>
-            {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-          </Script>
           {env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && (
             <>
               <Script
